@@ -37,7 +37,7 @@ pip install tensorflow_addons more_itertools tensorflow_model_optimization
     ```
     
 5.  Inference
-
+    you can use my [pre-trained ckpt](https://github.com/zhen8838/AnimeGAN/releases/tag/0.1).
     ```sh
     make infer_gan CKPT=log/default_animegan_exp_2_11/generator_model-50.h5 IMG=xxxxx/animedataset/test/real
     cd /tmp/test_photos/ # generate image dir
